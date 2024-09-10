@@ -1,5 +1,23 @@
-# Vue 3 + Vite
+# Prueba - Desarrollo de Interfaces Interactivas con Vue.js
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Este proyecto muestra una aplicación con temática de Pokémon utilizando la PokéAPI.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## Uso de la API
+
+La aplicación consume datos de la [PokéAPI](https://pokeapi.co) para mostrar información sobre Pokémon.
+
+## Tecnologías
+
+- **Vue 3**: Framework JavaScript para construir interfaces de usuario.
+- **Vite**: Herramienta de construcción rápida para proyectos Vue.
+
+## Configuración del Proyecto
+
+1. **Instalación**:
+
+   ```bash
+   npm install
+
+   npm run dev
+
+   ```
