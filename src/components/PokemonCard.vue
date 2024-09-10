@@ -90,7 +90,7 @@ export default {
 
 <style scoped>
 .BoxPokemon {
-  margin: 20px;
+  margin: 2em;
   text-align: center;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -100,10 +100,10 @@ export default {
 }
 
 img {
-  margin: 10px auto 0;
-  width: 150px;
-  height: 150px;
-  padding: 10px;
+  margin: 1em auto 0;
+  width: 10rem;
+  height: 10rem;
+  padding: 1em;
 }
 
 </style>

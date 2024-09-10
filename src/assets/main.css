@@ -2,10 +2,11 @@ body {
     font-size: "Roboto", sans-serif;
     background-color: #f5f5f5;
 }
+
 /* Hoja de estilo app vue */
 #app {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 2em;
 }
 
 #logo {
@@ -20,22 +21,42 @@ body {
 
 .col-3 {
     flex: 1 0 21%;
-    margin: 10px;
+    margin: 1em;
 }
+
 /* Animacion arcoiris para el texto cantidad de pokemones descubiertos */
 @keyframes arcoiris {
-    0% { color: red; }
-    16% { color: orange; }
-    33% { color: yellow; }
-    50% { color: green; }
-    66% { color: blue; }
-    83% { color: indigo; }
-    100% { color: violet; }
-  }
-  
-  .TextoDescubiertos {
+    0% {
+        color: red;
+    }
+
+    16% {
+        color: orange;
+    }
+
+    33% {
+        color: yellow;
+    }
+
+    50% {
+        color: green;
+    }
+
+    66% {
+        color: blue;
+    }
+
+    83% {
+        color: indigo;
+    }
+
+    100% {
+        color: violet;
+    }
+}
+
+.TextoDescubiertos {
     font-size: 22px;
     font-weight: bold;
     animation: arcoiris 3s infinite;
-  }
-  
+}

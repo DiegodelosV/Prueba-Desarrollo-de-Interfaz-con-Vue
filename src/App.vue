@@ -14,7 +14,7 @@
     </header>
 
     <div class="row">
-      <div class="col-3" v-for="(pokemon, i) in pokemones" :key="i">
+      <div class="col-12 col-md-3" v-for="(pokemon, i) in pokemones" :key="i">
         <PokemonCard
           :nombre="pokemon.nombre"
           :imagen="pokemon.imagen"
