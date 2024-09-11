@@ -104,6 +104,7 @@ img {
   width: 10rem;
   height: 10rem;
   padding: 1em;
+  filter: drop-shadow(0 0 0.3rem rgb(64, 61, 61));
 }
 
 </style>
